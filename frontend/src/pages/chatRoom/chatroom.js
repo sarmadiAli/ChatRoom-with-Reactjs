@@ -17,25 +17,11 @@ const ChatRoom = props => {
                text: []
     })
 
-    // const [messages, setMessages] = useState([])
-    // const [text, setText] = useState([])
+
     const scrollable = useRef()
 
 
 
-    // useEffect(() => {
-    //     socket.current.on("newMessage", (message) => {
-    //         setMessages(messages => messages.concat(message));
-    //         scrollable.current.scroll(0, scrollable.current.scrollHeight)
-
-    //     })
-
-    // }, [])
-    // const handleKeyDown = (event) => {
-    //     if (event.key === 'Enter') {
-    //         sumbit()
-    //     }
-    // }
     return (
         <ChatContext.Provider value={{
             props,

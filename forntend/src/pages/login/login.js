@@ -30,7 +30,6 @@ const Login = props => {
 
         }}>
             <div>
-
                 
                 <InputLog  propsLogin={props} />
 
