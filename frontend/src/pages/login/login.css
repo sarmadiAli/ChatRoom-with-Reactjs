@@ -1,0 +1,25 @@
+
+
+.myapp {
+    color: red
+}
+
+.formforInpur {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+
+}
+
+.formforInpur>input {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.headertext {
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
